@@ -1,6 +1,17 @@
 function firstChar(text) {
-  // your code here
+  //SGN your code here
+	let firstC = ""; 
+	for (let i = 0; i < text.length; i++) {
+		if(text.charAt(i) != 0){
+			firstC +=  text.charAt(i);
+			
+			break;
+		}else{
+			firstC =  "";
+		}
+	} return firstC;
 }
+
 
 // Do not change the code below
 
